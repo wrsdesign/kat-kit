@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "serve": "php -S 127.0.0.1:8080 -t public server.php",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production",
+    "start": "concurrently \"npm:watch\" \"npm:serve\""
+  },
+  "dependencies": {
+    "@whiterussianstudio/tailwind-debug-mq": "^1.1.2",
+    "@whiterussianstudio/tailwind-easing": "^1.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "browser-sync": "^2.27.4",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "concurrently": "^6.2.0",
+    "laravel-mix": "^6.0.25",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
+}
