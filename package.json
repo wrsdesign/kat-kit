@@ -1,20 +1,9 @@
 {
   "scripts": {
-    "serve": "php -S 127.0.0.1:8080 -t public server.php",
-    "vite": "vite",
-    "dev": "touch resources/.lock && concurrently \"npm:serve\" \"npm:vite\"",
-    "build": "rm -f resources/.lock && vite build",
-    "watch": "touch resources/.lock && vite build --watch"
-  },
-  "dependencies": {
-    "@whiterussianstudio/tailwind-debug-mq": "^1.1.2",
-    "@whiterussianstudio/tailwind-easing": "^1.0.0"
+    "dev": "touch src/.lock && vite",
+    "build": "rm -f src/.lock && vite build"
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.6",
-    "concurrently": "^6.2.1",
-    "postcss": "^8.3.5",
-    "tailwindcss": "^2.2.4",
     "vite": "^2.5.10",
     "vite-plugin-live-reload": "^2.1.0"
   }

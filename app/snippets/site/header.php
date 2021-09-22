@@ -9,6 +9,7 @@
   <?= snippet('site/seo') ?>
   <?= snippet('site/icons') ?>
 
+  <?= vite()->client() ?>
   <?= vite()->css() ?>
   <?= vite()->js() ?>
 </head>
