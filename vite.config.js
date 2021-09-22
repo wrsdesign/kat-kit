@@ -8,11 +8,11 @@ export default ({ mode }) => ({
   root: 'src',
   base: mode === 'development' ? '/' : '/dist/',
   resolve: {
-    alias: {
-      '@utils': resolve(__dirname, 'src/js/utils'),
-      '@components': resolve(__dirname, 'src/js/components'),
-      '@vendors': resolve(__dirname, 'src/js/vendors'),
-    },
+    alias: [
+      { find: '@utils', replacement: resolve(__dirname, 'src/js/utils') },
+      { find: '@components', replacement: resolve(__dirname, 'src/js/components') },
+      { find: '@vendors', replacement: resolve(__dirname, 'src/js/vendors') }
+    ],
   },
   server: {
     port: 3000,
