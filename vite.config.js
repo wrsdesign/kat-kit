@@ -1,7 +1,7 @@
 import liveReload from 'vite-plugin-live-reload'
 import { resolve } from 'path'
 
-// TODO: auto updates, notes:
+// TODO: auto reload on change (currently doesn't work), notes:
 // 1. see liveReload plugin below,
 // 2. works here: https://github.com/arnoson/kirby-vite-multi-page-kit
 
