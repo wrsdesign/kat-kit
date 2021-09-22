@@ -5,6 +5,8 @@
   },
   "devDependencies": {
     "vite": "^2.5.10",
-    "vite-plugin-live-reload": "^2.1.0"
+    "vite-plugin-live-reload": "^2.1.0",
+    "vite-plugin-windicss": "^1.4.4",
+    "windicss": "^3.1.7"
   }
 }

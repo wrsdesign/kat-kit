@@ -1,5 +1,6 @@
 import liveReload from 'vite-plugin-live-reload'
 import { resolve } from 'path'
+import WindiCSS from 'vite-plugin-windicss'
 
 // Docs: https://vitejs.dev/config/
 
@@ -31,6 +32,7 @@ export default ({ mode }) => ({
     liveReload([
       resolve(process.cwd(), 'app/(templates|snippets|controllers|models)/**/*.php'),
       resolve(process.cwd(), 'storage/content/**/*')
-    ])
+    ]),
+    WindiCSS()
   ]
 })
