@@ -4,8 +4,41 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b9026860e94f934c5a61c49207e2579",
+    "content-hash": "13fc739448897b2b96f1c0dcde94ac11",
     "packages": [
+        {
+            "name": "arnoson/kirby-vite",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arnoson/kirby-vite.git",
+                "reference": "fcf9a6199a5c6d32f6940a6267dd1274394b546a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arnoson/kirby-vite/zipball/fcf9a6199a5c6d32f6940a6267dd1274394b546a",
+                "reference": "fcf9a6199a5c6d32f6940a6267dd1274394b546a",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "require-dev": {
+                "getkirby/cms": "^3",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Vite helper for Kirby CMS",
+            "support": {
+                "issues": "https://github.com/arnoson/kirby-vite/issues",
+                "source": "https://github.com/arnoson/kirby-vite/tree/v2.4.0"
+            },
+            "time": "2021-07-05T16:38:01+00:00"
+        },
         {
             "name": "bvdputte/kirby-log",
             "version": "v2.0.0",

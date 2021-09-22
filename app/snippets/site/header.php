@@ -9,13 +9,8 @@
   <?= snippet('site/seo') ?>
   <?= snippet('site/icons') ?>
 
-  <?= mix('/css/index.css') ?>
-  <?= mix('/js/manifest.js', ['defer' => true]) ?>
-  <?= mix('/js/index.js', ['defer' => true]) ?>
-
-  <?php if (!option('debug') and $site->scrips_head()->isNotEmpty()) : ?>
-    <?= $site->scrips_head() ?>
-  <?php endif; ?>
+  <?= vite()->css() ?>
+  <?= vite()->js() ?>
 </head>
 
 <body>
