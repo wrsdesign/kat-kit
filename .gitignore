@@ -22,43 +22,43 @@ Icon
 # Cache Files
 # ---------------
 
-/storage/cache/*
-!/storage/cache/index.html
+/www/storage/cache/*
+!/www/storage/cache/index.html
 
 # Accounts
 # ---------------
 
-/storage/accounts/*
-!/storage/accounts/index.html
+/www/storage/accounts/*
+!/www/storage/accounts/index.html
 
 # Sessions
 # ---------------
 
-/storage/sessions/*
-!/storage/sessions/index.html
+/www/storage/sessions/*
+!/www/storage/sessions/index.html
 
 # License
 # ---------------
-/app/config/.license
+/www/app/config/.license
 
 /vendor/
-/kirby/
+/www/kirby/
 
-/app/plugins/*
-!/app/plugins/index.html
+/www/app/plugins/*
+!/www/app/plugins/index.html
 
 # Temporary files
 # ---------------
-/public/media
+/www/public/media
 
-/public/assets/*
-!/public/assets/index.html
+/www/public/assets/*
+!/www/public/assets/index.html
 
-/storage/media/*
-!/storage/media/index.html
+/www/storage/media/*
+!/www/storage/media/index.html
 
-/storage/content/*
-!/storage/content/index.html
+/www/storage/content/*
+!/www/storage/content/index.html
 
 # Logs
 logs
