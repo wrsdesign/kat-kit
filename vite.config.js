@@ -4,14 +4,16 @@ import WindiCSS from 'vite-plugin-windicss'
 
 // Docs: https://vitejs.dev/config/
 
+const cwd = process.cwd()
+
 export default ({ mode }) => ({
   root: 'src',
   base: mode === 'development' ? '/' : '/dist/',
   resolve: {
     alias: [
-      { find: '@utils', replacement: resolve(__dirname, 'src/js/utils') },
-      { find: '@components', replacement: resolve(__dirname, 'src/js/components') },
-      { find: '@vendors', replacement: resolve(__dirname, 'src/js/vendors') }
+      { find: '@utils', replacement: resolve(cwd, 'src/js/utils') },
+      { find: '@components', replacement: resolve(cwd, 'src/js/components') },
+      { find: '@vendors', replacement: resolve(cwd, 'src/js/vendors') }
     ],
   },
   server: {
@@ -21,17 +23,17 @@ export default ({ mode }) => ({
   },
   build: {
     target: 'es2015',
-    outDir: resolve(process.cwd(), 'public/dist'),
+    outDir: resolve(cwd, 'www/public/dist'),
     rollupOptions: {
-      input: resolve(process.cwd(), 'src/index.js')
+      input: resolve(cwd, 'src/index.js')
     },
     manifest: true,
     emptyOutDir: true
   },
   plugins: [
     liveReload([
-      resolve(process.cwd(), 'app/(templates|snippets|controllers|models)/**/*.php'),
-      resolve(process.cwd(), 'storage/content/**/*')
+      resolve(cwd, 'www/app/(templates|snippets|controllers|models)/**/*.php'),
+      resolve(cwd, 'www/storage/content/**/*')
     ]),
     WindiCSS()
   ]

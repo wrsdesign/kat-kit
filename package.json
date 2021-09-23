@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "setup": "cd www && composer install",
     "dev": "touch src/.lock && vite",
     "build": "rm -f src/.lock && vite build"
   },
