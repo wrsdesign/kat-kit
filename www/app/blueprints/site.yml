@@ -1,0 +1,11 @@
+title:
+  en: Site
+  ru: Сайт
+
+tabs:
+  content:
+    label:
+      en: Content
+      ru: Контент
+  vendors: tabs/vendors
+  seo: tabs/seo

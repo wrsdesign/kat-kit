@@ -1,0 +1,78 @@
+label: SEO
+columns:
+  - width: 2/3
+    sections:
+      meta:
+        type: fields
+        fields:
+          head:
+            type: info
+            theme: positive
+            label:
+              en: Info
+              ru: Информация
+            text:
+              en: |
+                Values for metatags and [__Open Graph__](https://yandex.ru/support/webmaster/open-graph/intro-open-graph.html?lang=ru) markup.
+                These values can be overridden for each page in the **SEO** tab.
+              ru: |
+                Значения метатегов и [__Open Graph__](https://yandex.ru/support/webmaster/open-graph/intro-open-graph.html?lang=ru) разметки для сайта.
+                Данные значения можно переопределить для каждой страницы оотдельно во вкладке **SEO**.
+          meta_head:
+            label:
+              en: Meta data
+              ru: Метатеги
+            type: headline
+            numbered: false
+          meta_title:
+            label:
+              en: Title
+              ru: Заголовок
+            type: text
+            placeholder: <title>
+            help: |
+                Рекомендуется: **70** символов
+          meta_description:
+            label:
+              en: Description
+              ru: Описание
+            type: text
+            size: small
+            placeholder: <meta name="description">
+            help: |
+              Рекомендуется: **156** символов
+          line:
+            type: line
+          og_head:
+            label: Open Graph
+            type: headline
+            numbered: false
+            help: |
+              Превью, которое формируется при публикации ссылки на сайт в социальных сетях и мессенджерах.
+              [Руководство по разметке](https://yandex.ru/support/webmaster/open-graph/intro-open-graph.html?lang=ru) от Яндекс.
+          og_image:
+            label: Open Graph Image
+            type: files
+            layout: cards
+            multiple: false
+            translate: false
+            size: huge
+            help:
+              en: Image size __1200×630px__
+              ru: Размер изображения __1200×630px__
+          og_title:
+            label: Open Graph Title
+            type: text
+            width: 1/2
+            placeholder: <meta name="og:title">
+          og_type:
+            label: Open Graph Type
+            type: text
+            width: 1/2
+            placeholder: <meta name="og:type">
+          og_description:
+            label: Open Graph Description
+            type: textarea
+            size: small
+            buttons: false
+            placeholder: <meta name="og:description">
