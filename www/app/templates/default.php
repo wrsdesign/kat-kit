@@ -1,8 +1,8 @@
 <?= snippet('site/header') ?>
 
 <div class="flex items-center justify-center h-screen antialiased appearance-none" style="background-color: black; color: gray;">
-  <div class="-mt-10 text-center">
-    <div class="bg-opacity-10 py-15 inline-flex items-center px-20 mb-10 space-x-10 bg-white rounded-full">
+  <div class="-mt-10px text-center">
+    <div class="bg-opacity-10 py-15px inline-flex items-center px-20px mb-10px space-x-10px bg-white rounded-full">
       <span>Start your next project with</span>
       <a href="https://whiterussian.studio" rel="noopener noreferrer" target="_blank">
         <svg width="24" height="24" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
