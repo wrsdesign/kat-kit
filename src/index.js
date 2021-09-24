@@ -1,0 +1,2 @@
+import 'virtual:windi.css'
+

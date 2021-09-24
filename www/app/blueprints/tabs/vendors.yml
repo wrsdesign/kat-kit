@@ -1,0 +1,60 @@
+label:
+  en: Code injection
+  ru: Внедрение кода
+fields:
+  info:
+    label:
+      en: Info
+      ru: Информация
+    type: info
+    theme: positive
+    text:
+      en: Section for inserting meta tags, tracking and verification codes
+      ru: |
+        Секция для вставки метатегов, кодов отслеживания и верификаций,
+        таких как [Google Analytics](https://analytics.google.com/analytics/web/), [Яндекс.Метрика](https://metrika.yandex.ru/) и [Facebook Pixel](https://ru-ru.facebook.com/business/learn/facebook-ads-pixel).
+
+        Код будет вставлен в тег **<body\>** или **<header\>** на каждой странице сайта.
+  scrips_head:
+    label:
+      en: Site header
+      ru: header сайта
+    type: textarea
+    counter: false
+    translate: false
+    buttons: false
+    font: monospace
+    size: large
+    width: 1/2
+    placeholder: |
+      <!-- Google Analytics -->
+      <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-XXXXX-Y', 'auto');
+      ga('send', 'pageview');
+      </script>
+      <!-- End Google Analytics -->
+  scrips_footer:
+    label:
+      en: Site body
+      ru: body сайта
+    type: textarea
+    buttons: false
+    translate: false
+    counter: false
+    placeholder: |
+      <script>
+      (function(w, d, s, h, id) {
+          w.roistatProjectId = id; w.roistatHost = h;
+          var p = d.location.protocol == "https:" ? "https://" : "http://";
+          var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init?referrer="+encodeURIComponent(d.location.href);
+          var js = d.createElement(s); js.charset="UTF-8"; js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
+      })(window, document, 'script', 'cloud.roistat.com', 'IDENTIFY');
+      </script>
+    font: monospace
+    size: large
+    width: 1/2
