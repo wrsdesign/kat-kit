@@ -57,9 +57,6 @@ Icon
 /www/storage/media/*
 !/www/storage/media/index.html
 
-/www/storage/content/*
-!/www/storage/content/index.html
-
 # Logs
 logs
 *.log
