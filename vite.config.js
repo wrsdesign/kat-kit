@@ -35,6 +35,15 @@ export default ({ mode }) => ({
       resolve(cwd, 'www/app/(templates|snippets|controllers|models)/**/*.php'),
       resolve(cwd, 'www/storage/content/**/*')
     ]),
-    WindiCSS()
+    WindiCSS({
+      scan: {
+        dirs: [
+          resolve(cwd, 'www/app/templates'),
+          resolve(cwd, 'www/app/snippets'),
+          resolve(cwd, 'src')
+        ],
+        fileExtensions: ['php', 'js'],
+      }
+    })
   ]
 })
