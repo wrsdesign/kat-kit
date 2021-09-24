@@ -32,7 +32,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '0de609f36f33cf5beed22aecccd44c858902d4c5',
+    'reference' => '417bd06101f7391929b346b2ef28df4b266f5499',
     'name' => 'whiterussianstudio/kirby-kit',
   ),
   'versions' => 
@@ -177,7 +177,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '0de609f36f33cf5beed22aecccd44c858902d4c5',
+      'reference' => '417bd06101f7391929b346b2ef28df4b266f5499',
     ),
     'zendframework/zend-escaper' => 
     array (

@@ -41,7 +41,7 @@ Icon
 # ---------------
 /www/app/config/.license
 
-/vendor/
+/www/vendor/
 /www/kirby/
 
 /www/app/plugins/*
