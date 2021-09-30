@@ -36,8 +36,9 @@ columns:
             label:
               en: Description
               ru: Описание
-            type: text
+            type: textarea
             size: small
+            buttons: false
             placeholder: <meta name="description">
             help: |
               Рекомендуется: **156** символов
