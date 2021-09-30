@@ -1,6 +1,6 @@
 <?= snippet('site/header') ?>
 
-<div class="flex items-center justify-center h-screen antialiased appearance-none" style="background-color: black; color: gray;">
+<div class="flex items-center justify-center h-screen antialiased appearance-none bg-black text-true-gray-500">
   <div class="-mt-10px text-center">
     <div class="bg-opacity-10 py-15px inline-flex items-center px-20px mb-10px space-x-10px bg-white rounded-full">
       <span>Start your next project with</span>
