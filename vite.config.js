@@ -6,9 +6,9 @@ import WindiCSS from 'vite-plugin-windicss'
 
 const cwd = process.cwd()
 
-export default ({ mode }) => ({
+export default () => ({
   root: 'src',
-  base: mode === 'development' ? '/' : '/', // todo: remove mode
+  base: '/',
   resolve: {
     alias: [
       { find: '@utils', replacement: resolve(cwd, 'src/js/utils') },
