@@ -23,19 +23,19 @@ Icon
 # ---------------
 
 /www/storage/cache/*
-!/www/storage/cache/index.html
+!/www/storage/cache/.gitkeep
 
 # Accounts
 # ---------------
 
 /www/storage/accounts/*
-!/www/storage/accounts/index.html
+!/www/storage/accounts/.gitkeep
 
 # Sessions
 # ---------------
 
 /www/storage/sessions/*
-!/www/storage/sessions/index.html
+!/www/storage/sessions/.gitkeep
 
 # License
 # ---------------
@@ -45,7 +45,7 @@ Icon
 /www/kirby/
 
 /www/app/plugins/*
-!/www/app/plugins/index.html
+!/www/app/plugins/.gitkeep
 
 # Temporary files
 # ---------------
@@ -56,7 +56,7 @@ Icon
 /www/public/manifest.json
 
 /www/storage/media/*
-!/www/storage/media/index.html
+!/www/storage/media/.gitkeep
 
 # Logs
 logs
