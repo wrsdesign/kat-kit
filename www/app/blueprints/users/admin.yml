@@ -1,0 +1,14 @@
+title: Admin
+permissions:
+  pages:
+    changeSlug: false
+    changeStatus: false
+    changeTemplate: false
+    changeTitle: true
+    create: false
+    delete: false
+    duplicate: false
+    preview: true
+    read: true
+    sort: true
+    update: true
