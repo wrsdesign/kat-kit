@@ -52,7 +52,8 @@ Icon
 /www/public/media
 
 /www/public/assets/*
-!/www/public/assets/index.html
+!/www/public/assets/.gitkeep
+/www/public/manifest.json
 
 /www/storage/media/*
 !/www/storage/media/index.html
