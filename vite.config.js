@@ -36,6 +36,7 @@ export default () => ({
       resolve(cwd, 'www/storage/content/**/*')
     ]),
     WindiCSS({
+      config: resolve(cwd, 'windi.config.js'),
       scan: {
         dirs: [
           resolve(cwd, 'www/app/templates'),
