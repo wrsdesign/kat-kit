@@ -8,7 +8,7 @@ const cwd = process.cwd()
 
 export default () => ({
   root: 'src',
-  base: '/',
+  base: mode === 'development' ? '/' : '/assets/',
   resolve: {
     alias: [
       { find: '@utils', replacement: resolve(cwd, 'src/js/utils') },
@@ -23,12 +23,13 @@ export default () => ({
   },
   build: {
     target: 'es2015',
-    outDir: resolve(cwd, 'www/public/'),
+    assetsDir: '.',
+    outDir: resolve(cwd, 'www/public/assets'),
     rollupOptions: {
       input: resolve(cwd, 'src/index.js')
     },
     manifest: true,
-    emptyOutDir: false
+    emptyOutDir: true,
   },
   plugins: [
     liveReload([
