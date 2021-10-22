@@ -5,10 +5,10 @@
     "build": "rm -f src/.lock && vite build"
   },
   "devDependencies": {
-    "sass": "^1.42.1",
-    "vite": "^2.5.10",
+    "sass": "^1.43.3",
+    "vite": "^2.6.10",
     "vite-plugin-live-reload": "^2.1.0",
-    "vite-plugin-windicss": "^1.4.4",
-    "windicss": "^3.1.7"
+    "vite-plugin-windicss": "^1.4.12",
+    "windicss": "^3.1.9"
   }
 }
