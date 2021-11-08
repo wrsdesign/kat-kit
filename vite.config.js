@@ -22,7 +22,7 @@ export default ({ mode }) => ({
     cors: true
   },
   build: {
-    target: 'es2015',
+    target: 'es2017',
     assetsDir: '.',
     outDir: resolve(cwd, 'www/public/assets'),
     rollupOptions: {
