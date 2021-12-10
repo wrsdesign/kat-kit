@@ -6,7 +6,7 @@ import WindiCSS from 'vite-plugin-windicss'
 
 const cwd = process.cwd()
 
-export default () => ({
+export default ({ mode }) => ({
   root: 'src',
   base: mode === 'development' ? '/' : '/assets/',
   resolve: {
@@ -22,7 +22,7 @@ export default () => ({
     cors: true
   },
   build: {
-    target: 'es2015',
+    target: 'es2017',
     assetsDir: '.',
     outDir: resolve(cwd, 'www/public/assets'),
     rollupOptions: {
