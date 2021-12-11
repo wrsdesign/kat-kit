@@ -6,12 +6,12 @@
 Starter Kit with Kirby CMS
 ===============================================
 
-Quick start of the project with [Kirby CMS](https://getkirby.com/), [Vite](https://vitejs.dev/), and [WindiCSS](https://windicss.org) from [White Russian Studio](https://whiterussian.studio/)
+Quick start of the project with [Kirby CMS](https://getkirby.com/), [Vite](https://vitejs.dev/), and [TailwindCSS](https://tailwindcss.com/) from [White Russian Studio](https://whiterussian.studio/)
 
 ## Features
 
 - [Vite](https://vitejs.dev/) - build tool
-- [WindiCSS](https://windicss.org) - CSS framework
+- [TailwindCSS](https://tailwindcss.com/) - CSS framework
 
 ## Installation and Usage
 
@@ -20,5 +20,5 @@ Quick start of the project with [Kirby CMS](https://getkirby.com/), [Vite](https
 3. `cd www && valet link && cd ..` to set up development environment (example with [Laravel Valet](https://laravel.com/docs/8.x/valet))
 4. `npm run dev` (or `npm run build` for use in production)
 
-To update Composer dependencies:  
+To update Composer dependencies:
 `cd www && composer update && cd ..`
