@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "setup": "cd www && composer install",
-    "dev": "touch src/.lock && vite",
+    "setup": "npm install && cd www && composer install",
+    "dev": "npm run kirby & touch src/.lock && vite",
+    "kirby": "php -S localhost:8080 -t www/public www/kirby/router.php",
     "build": "rm -f src/.lock && vite build"
   },
   "devDependencies": {
