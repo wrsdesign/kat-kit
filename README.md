@@ -4,7 +4,7 @@
 
 # KAT Kit
 
-Kirby CMS, Alpine and Tailwind starter kit for your next project.  
+Kirby CMS, Alpine.js and Tailwind starter kit for your next project.  
 Works with the built-in PHP server. No need to install Valet/Vagrant/MAMP or other tools that complicate the development workflow.
 
 ## Tools
@@ -59,7 +59,7 @@ The preview will be available at `localhost:8080`.
 
 ### Production
 
-After completing the build step, copy content from the `www` folder to a web server and set `public` as the root directory.
+After completing the [build step](#build), copy content from the `www` folder to a web server and set `public` as the root directory.
 
 ---
 
