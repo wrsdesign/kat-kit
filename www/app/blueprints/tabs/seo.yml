@@ -30,7 +30,10 @@ columns:
               ru: Заголовок
             type: text
             placeholder: <title>
-            help: |
+            help: 
+              en: |
+                Recommended: **70** characters
+              ru: |
                 Рекомендуется: **70** символов
           meta_description:
             label:
@@ -40,17 +43,24 @@ columns:
             size: small
             buttons: false
             placeholder: <meta name="description">
-            help: |
-              Рекомендуется: **156** символов
+            help:
+              en: |
+                Recommended: **156** characters
+              ru: | 
+                Рекомендуется: **156** символов
           line:
             type: line
           og_head:
             label: Open Graph
             type: headline
             numbered: false
-            help: |
-              Превью, которое формируется при публикации ссылки на сайт в социальных сетях и мессенджерах.
-              [Руководство по разметке](https://yandex.ru/support/webmaster/open-graph/intro-open-graph.html?lang=ru) от Яндекс.
+            help: 
+              en: |
+                A preview that is generated when a link to a website is published on social networks and instant messengers.
+                [Markup Guide] (https://yandex.ru/support/webmaster/open-graph/intro-open-graph.html?lang=ru) from Yandex.
+              ru: |
+                Превью, которое формируется при публикации ссылки на сайт в социальных сетях и мессенджерах.
+                [Руководство по разметке](https://yandex.ru/support/webmaster/open-graph/intro-open-graph.html?lang=ru) от Яндекс.
           og_image:
             label: Open Graph Image
             type: files
