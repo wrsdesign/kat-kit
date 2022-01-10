@@ -56,7 +56,6 @@ columns:
             type: files
             layout: cards
             multiple: false
-            translate: false
             size: huge
             help:
               en: Image size __1200×630px__
