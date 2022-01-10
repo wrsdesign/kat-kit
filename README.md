@@ -4,7 +4,7 @@
 
 # KAT Kit
 
-Kirby CMS, Alpine.js and Tailwind starter kit for your next project.  
+Kirby CMS, Alpine.js and Tailwind CSS starter kit for your next project.  
 Works with the built-in PHP server. No need to install Valet/Vagrant/MAMP or other tools that complicate the development workflow.
 
 ## Tools
