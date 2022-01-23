@@ -6,10 +6,10 @@
     "build": "rm -f src/.lock && vite build"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.4",
-    "tailwindcss": "^3.0.1",
-    "vite": "^2.7.1",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.15",
+    "vite": "^2.7.13",
     "vite-plugin-live-reload": "^2.1.0"
   },
   "prettier": {
