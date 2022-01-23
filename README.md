@@ -1,5 +1,5 @@
 <a href="https://whiterussian.studio/">
-  <img src="https://whiterussian.studio/assets/wrs.png" alt="White Russian Studio" width="96">
+  <img src="/cover.png" alt="White Russian Studio">
 </a>
 
 # KAT Kit
