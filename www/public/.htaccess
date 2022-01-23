@@ -7,10 +7,10 @@ RewriteEngine on
 RewriteRule (^|/)\.(?!well-known\/) index.php [L]
 
 # Block all files in the content folder from being accessed directly
-RewriteRule ^content/(.*) index.php [L]
+RewriteRule ^stoorage/(.*) index.php [L]
 
 # Block all files in the site folder from being accessed directly
-RewriteRule ^site/(.*) index.php [L]
+RewriteRule ^app/(.*) index.php [L]
 
 # Block direct access to Kirby and the Panel sources
 RewriteRule ^kirby/(.*) index.php [L]
