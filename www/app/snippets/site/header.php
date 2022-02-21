@@ -12,6 +12,10 @@
   <?= vite()->client() ?>
   <?= vite()->css() ?>
   <?= vite()->js() ?>
+
+  <?php if (!option('debug') and $site->scrips_head()->isNotEmpty()) : ?>
+    <?= $site->scrips_head() ?>
+  <?php endif; ?>
 </head>
 
 <body>
