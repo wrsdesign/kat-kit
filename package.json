@@ -17,5 +17,8 @@
     "tabWidth": 2,
     "semi": false,
     "singleQuote": true
+  },
+  "dependencies": {
+    "alpinejs": "^3.9.0"
   }
 }
