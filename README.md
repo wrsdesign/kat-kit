@@ -17,7 +17,7 @@ Features [public folder structure](https://getkirby.com/docs/guide/configuration
 
 
 ## Installation
-> ℹ︎ For the template to work correctly, install and configure [Composer](https://getcomposer.org/download/) (PHP package manager), [Node.js](https://nodejs.org/en/) (>= 12.0.0), and meet [Kirby CMS requirements](https://getkirby.com/docs/guide/quickstart#requirements).
+> ℹ︎ For the kit to work correctly, install and configure [Composer](https://getcomposer.org/download/) (PHP package manager), [Node.js](https://nodejs.org/en/) (>= 12.0.0), and meet [Kirby CMS requirements](https://getkirby.com/docs/guide/quickstart#requirements).
 
 Install JavaScript dependencies and Kirby CMS:
 
