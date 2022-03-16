@@ -3,7 +3,7 @@
 <div class="flex items-center justify-center h-screen antialiased appearance-none bg-black text-white">
   <div class="-mt-[10px] text-center">
     <a
-      class="bg-opacity-10 py-[15px] inline-flex items-center px-[20px] mb-[10px] space-x-[10px] bg-white rounded-full" href="https://whiterussian.studio"
+      class="bg-opacity-10 py-[15px] inline-flex items-center px-[20px] mb-[10px] space-x-[10px] bg-white rounded-full" href="https://wrs.design"
       rel="noopener noreferrer"
       target="_blank">
       <span>Start your next project with</span>
