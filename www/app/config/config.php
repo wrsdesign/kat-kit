@@ -1,12 +1,22 @@
 <?php
 
 return [
-  # core values
   'arnoson.kirby-vite.rootDir' => '../src/',
   'arnoson.kirby-vite.outDir'  => 'assets',
   'arnoson.kirby-vite.entry'   => 'app.js',
 
-  # optional values
-  'debug' => true,
-  'smartypants' => true
+  'smartypants' => true,
+  'panel' => [
+    'slug' => 'cp',
+    'language' => 'ru'
+  ],
+  'thumbs' => [
+    'format' => 'webp',
+    'quality' => 80,
+    'srcsets' => [
+      'default' => [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
+    ]
+  ],
+  'routes' => require_once 'routes.php',
+  'hooks' => require_once 'hooks.php'
 ];
