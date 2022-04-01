@@ -8,7 +8,18 @@
 
   <?= snippet('site/seo') ?>
   <?= snippet('site/icons') ?>
+  
+  <script
+    src="https://unpkg.com/quicklink@2.2.0/dist/quicklink.umd.js"
+    async
+    onload="quicklink.listen()"
+  ></script>
 
+  <style>
+    [x-cloak] { opacity: 0 !important; }
+    img:not([src]):not([srcset]) { visibility: hidden !important; }
+  </style>
+  
   <?= vite()->client() ?>
   <?= vite()->css() ?>
   <?= vite()->js() ?>
@@ -19,3 +30,7 @@
 </head>
 
 <body>
+
+<?= snippet('image', [
+  'file' => $site->og_image()->toFile()
+]) ?>

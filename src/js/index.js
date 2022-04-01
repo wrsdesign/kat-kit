@@ -1,5 +1,6 @@
 import Alpine from 'alpinejs'
 import intersect from '@alpinejs/intersect'
+import LazyLoad from 'vanilla-lazyload'
 
 // Prevent scrolling while optionally allowing scrolling on specified elements
 // https://github.com/bameyrick/prevent-scrolling
@@ -14,6 +15,11 @@ history.scrollRestoration
   : (window.onbeforeunload = () => window.scrollTo(0, 0))
 
 window.utils = {}
+
+window.lazyLoadInstance = new LazyLoad({
+  elements_selector: '[loading=lazy]',
+  use_native: true
+})
 
 window.utils.PreventScrolling = PreventScrolling
 window.utils.ReEnableScrolling = ReEnableScrolling
