@@ -47,6 +47,8 @@ Icon
 /www/app/plugins/*
 !/www/app/plugins/.gitkeep
 
+!/www/app/plugins/kirby-wrs-utils
+
 # Temporary files
 # ---------------
 /www/public/media

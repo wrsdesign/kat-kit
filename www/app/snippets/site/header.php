@@ -30,7 +30,3 @@
 </head>
 
 <body>
-
-<?= snippet('image', [
-  'file' => $site->og_image()->toFile()
-]) ?>
