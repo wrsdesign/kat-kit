@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@alpinejs/intersect': ^3.9.5
   '@tailwindcss/aspect-ratio': ^0.4.0
   alpinejs: ^3.9.5
   autoprefixer: ^10.4.4
@@ -11,6 +12,7 @@ specifiers:
   vite-plugin-live-reload: ^2.1.0
 
 dependencies:
+  '@alpinejs/intersect': 3.9.5
   alpinejs: 3.9.5
 
 devDependencies:
@@ -23,6 +25,10 @@ devDependencies:
   vite-plugin-live-reload: 2.1.0
 
 packages:
+
+  /@alpinejs/intersect/3.9.5:
+    resolution: {integrity: sha512-wuEynElIDBLq0RtcGINgGmS4cIgM4R+4+s4Q8NvPpuOGuoqPAn6VhLB5WOWPnHPrxnTUl+PwOQyCHpXmpsCCaA==}
+    dev: false
 
   /@babel/code-frame/7.16.7:
     resolution: {integrity: sha512-iAXqUn8IIeBTNd72xsFlgaXHkMBMt6y4HJp1tIaK465CWLT/fG1aqB7ykr95gHHmlBdGbFeWWfyB4NJJ0nmeIg==}
