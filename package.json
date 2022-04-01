@@ -1,15 +1,15 @@
 {
   "scripts": {
-    "setup": "npm install && cd www && composer install",
-    "dev": "npm run kirby & touch src/.lock && vite",
+    "setup": "pnpm install && cd www && composer install",
+    "dev": "pnpm run kirby & touch src/.lock && vite",
     "kirby": "php -S localhost:8080 -t www/public www/kirby/router.php",
     "build": "rm -f src/.lock && vite build"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.15",
-    "vite": "^2.7.13",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23",
+    "vite": "^2.9.1",
     "vite-plugin-live-reload": "^2.1.0"
   },
   "prettier": {
@@ -19,6 +19,6 @@
     "singleQuote": true
   },
   "dependencies": {
-    "alpinejs": "^3.9.0"
+    "alpinejs": "^3.9.5"
   }
 }
