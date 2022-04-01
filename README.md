@@ -52,7 +52,7 @@ To preview the built project run:
 
 ```bash
   npm run build
-  npm run kirby
+  npm run serve
 ```
 
 The preview will be available at `localhost:8080`.

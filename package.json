@@ -1,8 +1,8 @@
 {
   "scripts": {
     "setup": "pnpm install && cd www && composer install",
-    "dev": "pnpm run kirby & touch src/.lock && vite",
-    "kirby": "php -S localhost:8080 -t www/public www/kirby/router.php",
+    "dev": "pnpm run serve & touch src/.lock && vite",
+    "serve": "php -S localhost:8080 -t www/public www/kirby/router.php",
     "build": "rm -f src/.lock && vite build"
   },
   "devDependencies": {
