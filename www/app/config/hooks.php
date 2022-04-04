@@ -3,10 +3,10 @@
 use Kirby\Filesystem\Dir;
 
 return [
-  'page.update:after' => function () {
+  'page.*:after' => function () {
     Dir::remove(kirby()->roots()->cache());
   },
-  'site.update:after' => function () {
+  'site.*:after' => function () {
     Dir::remove(kirby()->roots()->cache());
   },
 ];
