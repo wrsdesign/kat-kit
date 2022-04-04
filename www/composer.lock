@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a74a9d2c3c41413be9df9d2066ffc24e",
+    "content-hash": "6f678b883e523fc6e311cf1a985ecf29",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -38,6 +38,74 @@
                 "source": "https://github.com/arnoson/kirby-vite/tree/v2.4.0"
             },
             "time": "2021-07-05T16:38:01+00:00"
+        },
+        {
+            "name": "bnomei/kirby3-php-cachedriver",
+            "version": "1.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bnomei/kirby3-php-cachedriver.git",
+                "reference": "26bfabf6847dafc0f563ccb899ea234338ccb8e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bnomei/kirby3-php-cachedriver/zipball/26bfabf6847dafc0f563ccb899ea234338ccb8e4",
+                "reference": "26bfabf6847dafc0f563ccb899ea234338ccb8e4",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=7.4.0"
+            },
+            "require-dev": {
+                "getkirby/cms": "^3.5",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^9.5"
+            },
+            "suggest": {
+                "bnomei/kirby3-boost": "Boost the speed of Kirby by having content files of pages cached, with automatic unique ID, fast lookup and Tiny-URL.",
+                "bnomei/kirby3-lapse": "Cache any data until set expiration time"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "kirby-cms-path": "tests/kirby"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Bnomei\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Meilick",
+                    "email": "b@bnomei.com"
+                }
+            ],
+            "description": "PHP based Cache-Driver",
+            "keywords": [
+                "Opcache",
+                "apcu",
+                "cache",
+                "include",
+                "key",
+                "key-value",
+                "kirby3",
+                "kirby3-cms",
+                "kirby3-plugin",
+                "performance",
+                "php",
+                "value",
+                "var_export"
+            ],
+            "support": {
+                "issues": "https://github.com/bnomei/kirby3-php-cachedriver/issues",
+                "source": "https://github.com/bnomei/kirby3-php-cachedriver/tree/v1.3.3"
+            },
+            "time": "2021-12-07T17:49:41+00:00"
         },
         {
             "name": "claviska/simpleimage",

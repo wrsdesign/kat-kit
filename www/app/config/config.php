@@ -6,6 +6,12 @@ return [
   'arnoson.kirby-vite.entry'   => 'app.js',
 
   'smartypants' => true,
+  'cache' => [
+    'pages' => [
+      'type' => 'php',
+      'active' => true
+    ]
+  ],
   'panel' => [
     'slug' => 'cp',
     'language' => 'ru'
