@@ -12,7 +12,7 @@
   <script
     src="https://unpkg.com/quicklink@2.2.0/dist/quicklink.umd.js"
     async
-    onload="quicklink.listen()"
+    onload="quicklink.listen({ throttle: 2 })"
   ></script>
 
   <style>
