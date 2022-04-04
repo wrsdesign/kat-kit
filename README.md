@@ -31,10 +31,11 @@ JS folder [aliasing](https://vitejs.dev/config/#resolve-alias) to avoid nasty lo
 > ℹ︎ For the kit to work correctly, install and configure [Composer](https://getcomposer.org/download/) (PHP package manager), [Node.js](https://nodejs.org/en/) (>= 12.0.0), and meet [Kirby CMS requirements](https://getkirby.com/docs/guide/quickstart#requirements).
 
 Install JavaScript dependencies and Kirby CMS:   
+<sub>We recommend using [pnpm](https://pnpm.io/) to free up hard drive space</sub>
+
 ```bash
   npm run setup
 ```
-We recommend using [pnpm](https://pnpm.io/) to free up hard drive space.
 
 
 ## Usage
