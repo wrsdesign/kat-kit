@@ -13,18 +13,28 @@ Works with the built-in PHP server. No need to install Valet/Vagrant/MAMP or oth
 [Alpine.js](https://alpinejs.dev/) — lightweight JavaScript framework for extending markup behaviour  
 [Tailwind CSS](https://tailwindcss.com/) — the most popular utility-first CSS framework
 
-Features [public folder structure](https://getkirby.com/docs/guide/configuration#custom-folder-setup) and `media` folder aliasing, extra ["SEO" and "Code injection"](./www/app/blueprints/tabs) tabs. Includes a fully configured HTML [`<head>`](www/app/snippets/site).
+
+Features [public folder structure](https://getkirby.com/docs/guide/configuration#custom-folder-setup) and `media` folder aliasing, extra ["SEO" and "Code injection"](./www/app/blueprints/tabs) tabs. Includes a fully configured HTML [`<head>`](www/app/snippets/site). Highly performant Kirby [Cache Driver](https://github.com/bnomei/kirby3-php-cachedriver) for pages.
+
+JS folder [aliasing](https://vitejs.dev/config/#resolve-alias) to avoid nasty looking imports `../../js/utils/lerp`:
+
+```javascript
+{
+  '@utils': 'src/js/utils',
+  '@components': 'src/js/components',
+  '@vendors': 'src/js/vendors'
+}
+```
 
 
 ## Installation
 > ℹ︎ For the kit to work correctly, install and configure [Composer](https://getcomposer.org/download/) (PHP package manager), [Node.js](https://nodejs.org/en/) (>= 12.0.0), and meet [Kirby CMS requirements](https://getkirby.com/docs/guide/quickstart#requirements).
 
-Install JavaScript dependencies and Kirby CMS:
-
+Install JavaScript dependencies and Kirby CMS:   
 ```bash
-  npm install
   npm run setup
 ```
+We recommend using [pnpm](https://pnpm.io/) to free up hard drive space.
 
 
 ## Usage
