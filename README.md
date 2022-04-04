@@ -64,4 +64,4 @@ After completing the [build step](#build), copy content from the `www` folder to
 ---
 
 
-White Russian Studio, 2021
+White Russian, 2022
