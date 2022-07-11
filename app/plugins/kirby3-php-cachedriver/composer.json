@@ -1,0 +1,71 @@
+{
+  "name": "bnomei/kirby3-php-cachedriver",
+  "type": "kirby-plugin",
+  "version": "1.3.3",
+  "description": "PHP based Cache-Driver",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bruno Meilick",
+      "email": "b@bnomei.com"
+    }
+  ],
+  "keywords": [
+    "kirby3",
+    "kirby3-cms",
+    "kirby3-plugin",
+    "cache",
+    "php",
+    "include",
+    "var_export",
+    "opcache",
+    "apcu",
+    "key",
+    "value",
+    "key-value",
+    "performance"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Bnomei\\": "classes/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "require": {
+    "php": ">=7.4.0",
+    "getkirby/composer-installer": "^1.1"
+  },
+  "require-dev": {
+    "getkirby/cms": "^3.5",
+    "php-coveralls/php-coveralls": "^2.1",
+    "phpunit/phpunit": "^9.5"
+  },
+  "scripts": {
+    "analyze": "phpstan analyse classes",
+    "fix": "php-cs-fixer fix",
+    "test": [
+      "mkdir -p tests/logs",
+      "phpunit --configuration ./phpunit.xml"
+    ],
+    "dist": [
+      "composer install --no-dev --optimize-autoloader",
+      "git rm -rf --cached .; git add .;"
+    ],
+    "kirby": [
+      "composer install",
+      "composer update",
+      "composer install --working-dir=tests/kirby --no-dev --optimize-autoloader",
+      "composer update --working-dir=tests/kirby"
+    ]
+  },
+  "extra": {
+    "kirby-cms-path": "tests/kirby"
+  },
+  "suggest": {
+    "bnomei/kirby3-boost": "Boost the speed of Kirby by having content files of pages cached, with automatic unique ID, fast lookup and Tiny-URL.",
+    "bnomei/kirby3-lapse": "Cache any data until set expiration time"
+  }
+}

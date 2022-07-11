@@ -1,16 +1,16 @@
 {
   "scripts": {
-    "setup": "npm install && cd www && composer install",
+    "setup": "npm install && composer install && composer update",
     "dev": "npm run serve & touch src/.lock && vite",
-    "serve": "php -S localhost:8080 -t www/public www/kirby/router.php",
+    "serve": "php -S localhost:8080 -t ./ kirby/router.php",
     "build": "rm -f src/.lock && vite build"
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.0",
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.3",
-    "vite": "^2.9.12",
+    "tailwindcss": "^3.1.5",
+    "vite": "^2.9.14",
     "vite-plugin-live-reload": "^2.1.0"
   },
   "prettier": {

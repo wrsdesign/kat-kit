@@ -22,7 +22,7 @@ export default ({ mode }) => ({
   build: {
     target: 'es2017',
     assetsDir: '.',
-    outDir: resolve(cwd, 'www/public/assets'),
+    outDir: resolve(cwd, '/public/assets'),
     rollupOptions: {
       input: resolve(cwd, 'src/app.js'),
     },
@@ -31,8 +31,8 @@ export default ({ mode }) => ({
   },
   plugins: [
     liveReload([
-      resolve(cwd, 'www/app/(templates|snippets|controllers|models)/**/*.php'),
-      resolve(cwd, 'www/storage/content/**/*'),
+      resolve(cwd, '/app/(templates|snippets|controllers|models)/**/*.php'),
+      resolve(cwd, '/storage/content/**/*'),
     ]),
   ],
 })

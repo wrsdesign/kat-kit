@@ -14,7 +14,7 @@ Works with the built-in PHP server. No need to install Valet/Vagrant/MAMP or oth
 [Tailwind CSS](https://tailwindcss.com/) — the most popular utility-first CSS framework
 
 
-Features [public folder structure](https://getkirby.com/docs/guide/configuration#custom-folder-setup) and `media` folder aliasing, extra ["SEO" and "Code injection"](./www/app/blueprints/tabs) tabs. Includes a fully configured HTML [`<head>`](www/app/snippets/site). Highly performant Kirby [Cache Driver](https://github.com/bnomei/kirby3-php-cachedriver) for pages.
+Features [refactor folder structure](https://getkirby.com/docs/guide/configuration#custom-folder-setup) and `media` folder aliasing, extra ["SEO" and "Code injection"](./www/app/blueprints/tabs) tabs. Includes a fully configured HTML [`<head>`](www/app/snippets/site). Highly performant Kirby [Cache Driver](https://github.com/bnomei/kirby3-php-cachedriver) for pages.
 
 JS folder [aliasing](https://vitejs.dev/config/#resolve-alias) to avoid nasty looking imports `../../js/utils/lerp`:
 
@@ -70,7 +70,7 @@ The preview will be available at `localhost:8080`.
 
 ### Production
 
-After completing the [build step](#build), copy content from the `www` folder to a web server and set `public` as the root directory.
+After completing the [build step](#build), copy content from project root to a web server.
 
 ---
 
