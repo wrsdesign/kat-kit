@@ -1,12 +1,10 @@
 <?php
 
 return [
-  'arnoson.kirby-vite.rootDir' => '../src/',
-  'arnoson.kirby-vite.outDir'  => 'assets',
-  'arnoson.kirby-vite.entry'   => 'app.js',
+  'arnoson.kirby-vite.outDir' => '/assets',
+  'arnoson.kirby-vite.entry'  => 'app.js',
 
   'smartypants' => true,
-  'debug' => true,
   'cache' => [
     'pages' => [
       'type' => 'php',

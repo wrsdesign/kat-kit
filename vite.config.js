@@ -22,7 +22,7 @@ export default ({ mode }) => ({
   build: {
     target: 'es2017',
     assetsDir: '.',
-    outDir: resolve(cwd, '/public/assets'),
+    outDir: resolve(cwd, 'assets'),
     rollupOptions: {
       input: resolve(cwd, 'src/app.js'),
     },

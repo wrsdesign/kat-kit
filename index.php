@@ -4,6 +4,8 @@ include 'kirby/bootstrap.php';
 
 $kirby = new \Kirby\Cms\App([
   'roots' => [
+    'index'    => __DIR__,
+    'base'     => __DIR__,
     'site'     => __DIR__ . '/app',
     // Storage
     // --------------------------------------------------------------------------------------------
