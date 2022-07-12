@@ -31,8 +31,8 @@ export default ({ mode }) => ({
   },
   plugins: [
     liveReload([
-      resolve(cwd, '/app/(templates|snippets|controllers|models)/**/*.php'),
-      resolve(cwd, '/storage/content/**/*'),
+      resolve(cwd, 'app/(templates|snippets|controllers|models)/**/*.php'),
+      resolve(cwd, 'storage/content/**/*'),
     ]),
   ],
 })
