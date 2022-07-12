@@ -3,7 +3,7 @@
         'name' => 'whiterussianstudio/kat-kit',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'af21cbe199ecefd99babcd706b22f2a3e1a7ecb8',
+        'reference' => '47468c1389de2311c6029eec224c36c60afe6d31',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -151,7 +151,7 @@
         'whiterussianstudio/kat-kit' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'af21cbe199ecefd99babcd706b22f2a3e1a7ecb8',
+            'reference' => '47468c1389de2311c6029eec224c36c60afe6d31',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
